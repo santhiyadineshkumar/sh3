@@ -5,7 +5,7 @@ def call() {
            stage('Git Checkout') {
                  steps {
                     script {
-                         git branch: 'node-dev', url: 'https://github.com/naresh26git/multi-branch.git' //project-repo
+                         git branch: 'node-dev', url: 'https://github.com/santhiyadineshkumar/sh1.git' //project-repo
                      }
                  }
              }
